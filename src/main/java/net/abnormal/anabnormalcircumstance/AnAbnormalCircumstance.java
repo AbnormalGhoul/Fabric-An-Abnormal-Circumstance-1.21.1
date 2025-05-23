@@ -1,5 +1,7 @@
 package net.abnormal.anabnormalcircumstance;
 
+import net.abnormal.anabnormalcircumstance.effect.ModEffects;
+import net.abnormal.anabnormalcircumstance.event.ModEvents;
 import net.fabricmc.api.ModInitializer;
 import net.abnormal.anabnormalcircumstance.item.ModItems;
 import net.abnormal.anabnormalcircumstance.event.ModAttackEvent;
@@ -16,5 +18,6 @@ public class AnAbnormalCircumstance implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModAttackEvent.register();
+		ModEffects.registerEffects();
 	}
 }

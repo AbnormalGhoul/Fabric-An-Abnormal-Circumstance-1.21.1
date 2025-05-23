@@ -12,7 +12,13 @@ import net.minecraft.item.ToolMaterial;
 
 
 public enum ModToolMaterials implements ToolMaterial {
-    SOULSTONE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 5000, 9.0F, 1.0F, 15, () -> Ingredient.ofItems(Items.AIR));
+    SOULSTONE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 5000, 9.0F, 0.0F, 15, () -> Ingredient.ofItems(Items.AIR)),
+    WOOD(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 59, 2.0F, 0.0F, 15, () -> Ingredient.fromTag(ItemTags.PLANKS)),
+    STONE(BlockTags.INCORRECT_FOR_STONE_TOOL, 131, 4.0F, 1.0F, 5, () -> Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS)),
+    IRON(BlockTags.INCORRECT_FOR_IRON_TOOL, 250, 6.0F, 2.0F, 14, () -> Ingredient.ofItems(Items.IRON_INGOT)),
+    DIAMOND(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1561, 8.0F, 3.0F, 10, () -> Ingredient.ofItems(Items.DIAMOND)),
+    GOLD(BlockTags.INCORRECT_FOR_GOLD_TOOL, 32, 12.0F, 0.0F, 22, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
+    NETHERITE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 2031, 9.0F, 4.0F, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;
