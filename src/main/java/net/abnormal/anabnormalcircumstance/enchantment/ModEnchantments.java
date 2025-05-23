@@ -31,10 +31,11 @@ public class ModEnchantments {
 
         // Register the Soulbound enchantment
         register(registerable, SOULBOUND, Enchantment.builder(
-                        Enchantment.definition(toolsList, toolsList, 1, 1,
-                                Enchantment.leveledCost(5, 7),
-                                Enchantment.leveledCost(25, 9),
-                                1)));
+                Enchantment.definition(toolsList, toolsList, 1, 1,
+                        Enchantment.leveledCost(5, 7),
+                        Enchantment.leveledCost(25, 9),
+                        1,
+                        AttributeModifierSlot.MAINHAND)));
     }
 
     private static void register(Registerable<Enchantment> registry, RegistryKey<Enchantment> key, Enchantment.Builder builder) {
