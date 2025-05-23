@@ -1,22 +1,20 @@
 {
+  "itemgroup.anabnormalcircumstance.abnormal_items": "Abnormal Items",
   "effect.anabnormalcircumstance.stunning": "Stunning",
+  "enchantment.anabnormalcircumstance.soulbound": "Soulbound",
   "tooltip.anabnormalcircumstance.yellow_solin_blade.tooltip": "Yellow Solin Blade lore goes here",
   "tooltip.anabnormalcircumstance.red_solin_blade.tooltip": "Red Solin Blade lore goes here",
   "tooltip.anabnormalcircumstance.dwarven_axe.tooltip": "I need a better name for this, and lore goes here",
   "tooltip.anabnormalcircumstance.dwarven_axe.wither": "§7Inflicts §4Wither II §7(5s) on hit",
   "tooltip.anabnormalcircumstance.will_breaker.tooltip": "Lore for life steal sword goes here",
   "tooltip.anabnormalcircumstance.will_breaker.lifesteal": "Life steals 10% of damage dealt",
+  "item.anabnormalcircumstance.katar": "Katar",
+  "item.anabnormalcircumstance.copper_coin": "Copper Coin",
+  "item.anabnormalcircumstance.silver_coin": "Silver Coin",
+  "item.anabnormalcircumstance.gold_coin": "Gold Coin",
+  "item.anabnormalcircumstance.platinum_coin": "Platinum Coin",
   "item.anabnormalcircumstance.yellow_solin_blade": "Yellow Solin Blade",
   "item.anabnormalcircumstance.red_solin_blade": "Red Solin Blade",
-  "item.anabnormalcircumstance.dwarven_axe": "Dwarfen Axe",
-  "item.anabnormalcircumstance.will_breaker": "Will Breaker",
-  "item.anabnormalcircumstance.katar": "Katar",
-  "item.anabnormalcircumstance.wooden_spear": "Wooden Spear",
-  "item.anabnormalcircumstance.golden_spear": "Golden Spear",
-  "item.anabnormalcircumstance.stone_spear": "Stone Spear",
-  "item.anabnormalcircumstance.iron_spear": "Iron Spear",
-  "item.anabnormalcircumstance.diamond_spear": "Diamond Spear",
-  "item.anabnormalcircumstance.netherite_spear": "Netherite Spear"
-
-
+  "item.anabnormalcircumstance.dwarven_axe": "Dwarven Axe",
+  "item.anabnormalcircumstance.will_breaker": "Will Breaker"
 }
