@@ -30,12 +30,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GOLD_COIN, Models.GENERATED);
         itemModelGenerator.register(ModItems.PLATINUM_COIN, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.KATAR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KATAR, Models.HANDHELD);
 
-        itemModelGenerator.register(ModItems.RED_SOLIN_BLADE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.YELLOW_SOLIN_BLADE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.DWARVEN_AXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.WILL_BREAKER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RED_SOLIN_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.YELLOW_SOLIN_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARVEN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WILL_BREAKER, Models.HANDHELD);
 
     }
 }

@@ -2,9 +2,6 @@ package net.abnormal.anabnormalcircumstance;
 
 import net.abnormal.anabnormalcircumstance.effect.ModEffects;
 import net.abnormal.anabnormalcircumstance.enchantment.ModEnchantmentEffects;
-import net.abnormal.anabnormalcircumstance.enchantment.ModEnchantments;
-import net.abnormal.anabnormalcircumstance.event.ModEvents;
-import net.abnormal.anabnormalcircumstance.event.SoulboundEventHandler;
 import net.abnormal.anabnormalcircumstance.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 import net.abnormal.anabnormalcircumstance.item.ModItems;
@@ -25,7 +22,6 @@ public class AnAbnormalCircumstance implements ModInitializer {
 
 		ModEffects.registerEffects();
 
-		SoulboundEventHandler.register();
 		ModEnchantmentEffects.registerEnchantmentEffects();
 
 		ModAttackEvent.register();
